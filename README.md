@@ -23,8 +23,14 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](Tulips.jpg)
 ```
+
+
+
+![Image](Tulips.jpg)
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -45,10 +51,10 @@ __This will also be bold__
 _You **can** combine them_
 ## This is an <BYT2> tag
     1. Item 1
-  2. Item 2
-  3. Item 3
-   1. Item 3a
-   2. Item 3b
+    2. Item 2
+    3. Item 3
+     4. Item 3a
+     5. Item 3b
 ###### This is an <h6> tag
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
@@ -69,7 +75,7 @@ As Kanye West said:
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
-- [ ] ![Koala](C:\Users\Public\Pictures\Sample Pictures\Koala.jpg)
+- [ ] ​
 | First Header                | Second Header                |
 | --------------------------- | ---------------------------- |
 | Content from cell 1         | Content from cell 2          |
