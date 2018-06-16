@@ -4,7 +4,7 @@
 Tips: BYT,17038506 copy by [https://steamcommunity.com/games/362890/announcements/detail/1594703306631918308]   :D
 ```
 
-24 DECEMBER, 2017	[- [BMS] ADAM-BOMB](https://steamcommunity.com/id/adam-bomb)
+###### 24 DECEMBER, 2017	[- [BMS] ADAM-BOMB](https://steamcommunity.com/id/adam-bomb)
 
 ![Image](FxOjzO3.jpg)
 
