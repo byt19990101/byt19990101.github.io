@@ -1,5 +1,9 @@
 ## Steam Sale, December Update, and Patch Notes
 
+```
+Tips: BYT,17038506 copy by [https://steamcommunity.com/games/362890/announcements/detail/1594703306631918308]   :D
+```
+
 24 DECEMBER, 2017	[- [BMS] ADAM-BOMB](https://steamcommunity.com/id/adam-bomb)
 
 ![Image](FxOjzO3.jpg)
@@ -20,29 +24,11 @@ We are striving to make sure Xen is fun, well thought-out, and cohesive. Each ch
 
 ### Screenshots From the Update
 
-```markdown
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](Tulips.jpg)
-```
-
 ![Image](4oRN3B9.jpg)
 
 ![Image](fbfPmy6.jpg)
 
 ![Image](4WdSZQ0.jpg)
-
-![Image](Tulips.jpg)
 
 ### Upcoming Feature
 
@@ -69,20 +55,36 @@ The new lighting is much less flat overall, displays colours which are truer to 
 ##### **New Features**
 
 1. Dynamic Lights - Full featured dynamic lights that are able to cast real time shadows, project textures, and emit volumetric light (godrays). These have been implemented across earthbound to help amp up the visual fidelity and “nextgen-ness”.
+
 2. Lens Flares - New entity that creates a lens flare with customizable colors, styles, and effects. These have been implemented across earthbound too; only on lights we deemed very bright or important enough to warrant a lens flare.
+
 3. Overhauled CSM and Godrays - Cascade Shadow Maps (CSM) have been totally rewritten and now run better than before. Godrays are completely overhauled to run smoother and operate off of a new entity that automatically gets the sun angle from the environment light. 
+
 4. New Crossbow Scope - Crossbow scope no longer uses an in game camera to zoom in. This makes the scope easier to aim and increases performance by removing a second rendering pass. It also fixes a number of visual bugs with using the scope throughout the game. 
+
 5. Image Based Ambient Lighting - Lighting can now be generated based off of the skybox image. This allows mappers to have significantly more accurate environmental lighting, which automatically takes into account the nuances and difference colours of the sky. This is unlike any other version of Source, where environment lighting is simply one flat colour picked by the mapper.
+
 6. 4 Way Texture Support - 4 way texture blends are now supported in engine, each with their own bump map, specular map, and procedural blending options. This allows for much more variety in texturing natural landscapes, as most older versions of Source only support 2 way texture blends.
+
 7. Color Correction - All existing earthbound maps now utilize color correction.
+
 8. Better Hammer Compiles - Hammer now uses current windows themes and the compiler does not block you from continuing to use Hammer; running in a separate batch window (similar to CSGO).
+
 9. Added Support for $treesway - Props can now move in the wind using tree sway. This creates more much more dynamic looking natural environments, with a very small performance cost.
+
 10. Implemented Hammer Instance Support - Hammer can now instance other VMFs to support modular level design.
+
 11. Improved Blood Particles - Updated and improved blood particle effects for NPCs, to not look as blocky and unrealistic.
+
 12. New Long Jump Mechanics - Modified long jump mechanics to be more similar to modern day games (press “jump” twice to long jump). Added a long jump recharge meter and “mana” mechanic to keep people from spamming long jump in both single and multiplayer (the long jump has a limited charge, with a medium base recharge rate, and the jumps consume this charge). Added a small “pop jump” mechanic to allow course corrects while player is mid air.
+
 13. Dynamic Light Implementation - Moved all existing old Source dynamic lights over to our new dynamic lights system. This should improve visuals and reduce hitching when a dynamic light is activated (such as explosions, flashlight, Xen portal, muzzle flash, etc).
+
 14. Doubled Source Displacement Limit - Max number of displacements allowed per map from 2048 to 4096. This allows the creation of more detailed and expansive natural outdoor environments.
+
 15. Fixed Hammer Shaded Textured View - No more horrendous fullbright mapping!
+
+   ​
 
 
 
@@ -243,68 +245,3 @@ The new lighting is much less flat overall, displays colours which are truer to 
 **Thanks!**
 
 **-The Black Mesa Team**
-
-# This is an <BYT> tag
-##### *This text will be italic*
-
-#### _This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-
-
-
-## This is an <BYT2> tag
-
-    1. Item 1
-    2. Item 2
-    3. Item 3
-     4. Item 3a
-     5. Item 3b
-###### This is an <h6> tag
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-http://github.com - automatic!
-[GitHub](http://github.com)
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-> I think you should use an
-> `<addr>` element here instead.
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
-    - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-- [ ] ​
-| First Header                | Second Header                |
-| --------------------------- | ---------------------------- |
-| Content from cell 1         | Content from cell 2          |
-| Content in the first column | Content in the second column |
-| First Header                | Second Header                |
-| ------------                | -------------                |
-| Content from cell 1         | Content from cell 2          |
-| Content in the first column | Content in the second column |
-#1
-
-```
->function fancyAlert(arg) {
-```
-
-  if(arg) {
-
-    $.facebox({div:'#foo'})
-  }
-}
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-
-mojombo#1
-mojombo/github-flavored-markdown#1
